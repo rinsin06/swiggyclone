@@ -1,0 +1,298 @@
+.main{
+    width: 100%;
+    font-family:  ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+body{
+    margin: 0;
+}
+.first{
+    width: 50%;
+    height: 540px;
+    display: inline-grid;
+    
+}
+.first1{
+    
+    width: 100%;
+    height: 540px;
+}
+.first2{
+
+    width: 680px;
+    height: 540px;
+    float: right;
+}
+
+.sign{
+
+    background-color: black;
+    color: white;
+    width: 111px;
+    height: 40px;
+    float: right;
+    cursor: pointer;
+    
+}
+
+.login{
+    color: black;
+    float: left;
+}
+
+.login:hover{
+    color: #fc8019;
+    cursor: pointer;
+}
+.logo{
+
+    height: 100%;
+    width: 50%;
+    margin-top: 45px;
+    display: inline-grid;
+}
+.ls{
+
+    width: 25%;
+    height: 100%;
+    float: right;
+    margin-top: 50px;
+}
+.upper{
+    height: 100px;
+    width: 100%;
+    margin-top: 15px;
+}
+.logop{
+    float:right;
+    padding-left: 130px;
+    height: 70px;
+}
+.middle{
+    width: 70%;
+    height: 120px;
+    padding-top: 100px;
+    padding-left: 150px;
+}
+.qstn{
+
+   color: #686b78 ;
+   font-size: 22px;
+}
+.search{
+    height: 48px;
+    width: 57%;
+    margin-left: 150px;
+    border-color: #fc8019;
+    font-size: 15px;
+    
+   
+   
+}
+
+
+
+.find{
+    height: 53px;
+    background-color: #fc8019;
+    color: white;
+    border-color:  #fc8019;
+    position: relative;
+    cursor: pointer;
+
+}
+.lower{
+
+    padding-left: 150px;
+    color: #686b78;
+}
+
+.second{
+    width: 100%;
+    height: 400px;
+    background-color: #2b1e16;
+
+}
+.second1{
+
+    width: 260px;
+    height: 323px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    display: inline-grid;
+    padding-left: 205px;
+}
+.pic{
+    color: white;
+}
+.cont{
+    color: #e0cbc1;
+}
+.third{
+    width: 100%;
+    height: 489px;
+}
+.third1{
+
+    width: 400px;
+    height: 300px;
+    font-size: 22px;
+    padding-left: 150px;
+    padding-top: 130px;
+    display: inline-table;
+}
+.third2{
+
+    width: 800px;
+    height: 489px;
+    float: right;
+}
+
+.fourth{
+    width: 100%;
+    height: 450px;
+    background-color: #2b1e16;
+}
+.fourth1{
+
+    width: 300px;
+    height: 400px;
+    text-decoration: none;
+    display: inline-grid;
+    color: white;
+    font-size: 16px;
+    padding-top: 30px;
+    border-width: 0;
+    border-bottom-width:1px ;
+    border-color: #686b78;
+    
+}
+
+ul
+{
+    list-style: none;
+    
+}
+li{
+
+    
+    cursor: pointer;
+    
+}
+
+
+.f1{
+    
+    display: inline;
+    margin-left: 115px;
+  
+}
+.dwnld{
+    width: 200px;
+    height: 380px;
+    float: right;
+    padding-top: 50px;
+    padding-right: 200px;
+}
+.f2{
+    width: 100%;
+    height: 755px;
+    background-color: #2b1e16;
+}
+
+.lab{
+ color: #686b78;
+}
+.list{
+
+    width: 80%;
+    margin-left: 115px;
+    border-style: solid;
+    border-width: 0px;
+    
+    border-top-width: 1px;
+    border-color: #686b78;
+}
+.fifth{
+
+    width: 100%;
+    height: 100px;
+    background-color: #2b1e16;
+
+}
+.fifth1{
+
+    width: 1200px;
+    height: 100%;
+    border-style: solid;
+    border-width: 0;
+    border-top-width: 1px;
+    border-color: #686b78;
+    margin-left: 115px;
+    display: inline-flex;
+}
+.five1{
+    width: 30%;
+    height: 50px;
+    padding-top: 25px;
+}
+.five2
+{
+    width: 30%;
+    height: 50px;
+    color: white;
+    padding-top: 18px;
+    margin-left: 120px;
+    font-size: 19px;
+}
+.five3{
+ 
+    width: 30%;
+    height: 50px;
+    padding-top: 30px;
+    float: right;
+
+}
+.soc{
+    height: 100%;
+    width: 180px;
+    float: right;
+}
+img.socp{
+
+    padding-left: 18px;
+
+}
+.middle{
+
+    font-size: 40px;
+    color: #2b1e16;
+    font-weight: bold;
+}
+
+.middle div:after{
+    
+    content: 'Hungry?';
+    animation:text 15s infinite;
+    
+    
+}
+
+@keyframes text{
+
+    20%{
+
+        content: 'Unexpected Guests?';
+    }
+    36%{
+        content:' Cocking gone wrong?';
+    }
+
+    52%{
+        content: 'Movie marathon?';
+    }
+    68%{
+        content: 'Game night?';
+    }
+    80%{
+        content: 'Late night at office?';
+    }
+}
